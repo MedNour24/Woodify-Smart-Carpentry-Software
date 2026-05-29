@@ -112,6 +112,50 @@ Run the built app:
 .\release\Smartcarpentry.exe
 ```
 
+## Quick Start
+
+1. Import `2A7.sql` into your database and make sure the ODBC connection is ready.
+2. Build the project with the qmake PowerShell script or the VS Code tasks.
+3. Set `AZURE_AI_API_KEY`, `GEMINI_API_KEY`, `FACEPP_API_KEY`, and `FACEPP_API_SECRET` if you want the AI and face features.
+4. Launch `Smartcarpentry.exe` and sign in.
+5. Use the left menu to open employees, materials, fabrication, models, and pieces.
+
+## How To Use
+
+1. Prepare the database first.
+  - Make sure the ODBC DSN or connection settings match your environment.
+  - Import the schema from `2A7.sql` and any module-specific SQL files you need.
+
+2. Build the application.
+  - Use the Qt kit and build system that match your compiler.
+  - The recommended path is the qmake flow described above.
+
+3. Set the required environment variables before launching if you use the online features.
+  - `AZURE_AI_API_KEY` for the employee assistant and image generation.
+  - `GEMINI_API_KEY` if you want the furniture assistant to use Gemini.
+  - `FACEPP_API_KEY` and `FACEPP_API_SECRET` for face detection and comparison.
+  - Optional: `SC_SKIP_FACE_ID=1` to bypass face verification during local testing.
+
+4. Start the app and log in.
+  - Launch `Smartcarpentry.exe` from the `debug` or `release` folder.
+  - Enter a valid account in the login screen.
+
+5. Use the main dashboard.
+  - Navigate with the left sidebar to access employees, wood inventory, fabrication, models, and pieces.
+  - Use the search bar at the top to filter records.
+
+6. Work module by module.
+  - Employees: add, edit, delete, filter, export, and manage training or RFID-related data.
+  - Bois/materials: manage inventory and recommendations.
+  - Fabrication: track jobs, phases, charts, and smart alerts.
+  - Models and pieces: generate pieces, preview models, and run nesting optimization.
+
+7. Use the smart features when needed.
+  - RFID and Arduino integrations require the device and serial port to be connected.
+  - AI-assisted modules require the relevant API keys to be present before launch.
+
+8. Close the app normally from the interface when finished.
+
 ## Build with CMake (Alternative)
 
 The project also includes a CMake configuration.
@@ -162,6 +206,4 @@ For production hardening, consider:
 No license file is currently defined in the repository.
 
 If you plan to share or publish this project publicly, add a `LICENSE` file (for example MIT, Apache-2.0, or GPL) and update this section.
-
-## Contributors
 
