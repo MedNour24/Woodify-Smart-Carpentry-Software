@@ -1,0 +1,47 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icons/add student.png</file>
+        <file>icons/dashboard2.png</file>
+        <file>icons/dashboardsmall1.png</file>
+        <file>icons/delete.png</file>
+        <file>icons/edit.png</file>
+        <file>icons/finances3.png</file>
+        <file>icons/menu.png</file>
+        <file>icons/pdf.png</file>
+        <file>icons/search.png</file>
+        <file>icons/settingssmall1.png</file>
+        <file>icons/signout2.png</file>
+        <file>icons/signoutsmall1.png</file>
+        <file>icons/studentssmall1.png</file>
+        <file>icons/logo.png</file>
+        <file>icons/bois.png</file>
+        <file>icons/bois_2.png</file>
+        <file>icons/employee.png</file>
+        <file>icons/employee_2.png</file>
+        <file>icons/fabrication.png</file>
+        <file>icons/fabrication_2.png</file>
+        <file>icons/model.png</file>
+        <file>icons/model_2.png</file>
+        <file>icons/settings2.png</file>
+        <file>icons/piece.png</file>
+        <file>icons/piece_2.png</file>
+        <file>icons/bois_2_blu.png</file>
+        <file>icons/bois_blu.png</file>
+        <file>icons/employee_2_blu.png</file>
+        <file>icons/employee_blu.png</file>
+        <file>icons/fabrication_2_blu.png</file>
+        <file>icons/fabrication_blu.png</file>
+        <file>icons/model_2_blu.png</file>
+        <file>icons/model_blu.png</file>
+        <file>icons/piece_2_blu.png</file>
+        <file>icons/piece_blu.png</file>
+        <file>icons/settingssmall2.png</file>
+        <file>icons/settings2_blu.png</file>
+        <file>icons/settingssmall1_blu.png</file>
+        <file>icons/signout2_blue.png</file>
+        <file>icons/signoutsmall1_blue.png</file>
+        <file>icons/menu_blu.png</file>
+        <file>icons/275386664_2053585921482874_5027067967595041409_n-(1).png</file>
+        <file>Atelier.png</file>
+    </qresource>
+</RCC>

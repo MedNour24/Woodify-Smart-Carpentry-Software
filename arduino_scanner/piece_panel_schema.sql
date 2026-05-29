@@ -1,0 +1,12 @@
+-- Smart Wood Scanner / Module PIECE
+-- Oracle migration for detected panel metadata.
+
+ALTER TABLE PIECE ADD (
+    LONGUEUR_PLAQUE  NUMBER(10,2),
+    LARGEUR_PLAQUE   NUMBER(10,2),
+    EPAISSEUR_PLAQUE NUMBER(10,2),
+    SURFACE_PLAQUE   NUMBER(18,2),
+    VOLUME_PLAQUE    NUMBER(18,2),
+    SOURCE_DETECTION VARCHAR2(50),
+    DATE_SCAN        DATE
+);

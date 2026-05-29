@@ -1,0 +1,42 @@
+{
+  "version": 4,
+  "configurations": [
+    {
+      "name": "Qt MinGW",
+      "compilerPath": "C:/Qt/Tools/llvm-mingw1706_64/bin/g++.exe",
+      "intelliSenseMode": "windows-gcc-x64",
+      "cStandard": "c17",
+      "cppStandard": "c++17",
+      "includePath": [
+        "${workspaceFolder}",
+        "${workspaceFolder}/**",
+        "C:/Qt/6.7.3/mingw_64/include",
+        "C:/Qt/6.7.3/mingw_64/include/QtCore",
+        "C:/Qt/6.7.3/mingw_64/include/QtGui",
+        "C:/Qt/6.7.3/mingw_64/include/QtWidgets",
+        "C:/Qt/6.7.3/mingw_64/include/QtSql",
+        "C:/Qt/6.7.3/mingw_64/include/QtCharts",
+        "C:/Qt/6.7.3/mingw_64/mkspecs/win32-g++",
+        "C:/Qt/6.7.3/mingw_64/include/**",
+        "C:/Qt/Tools/llvm-mingw1706_64/include",
+        "C:/Qt/Tools/llvm-mingw1706_64/lib/clang/17/include"
+      ],
+      "defines": [
+        "UNICODE",
+        "_UNICODE",
+        "QT_CORE_LIB",
+        "QT_GUI_LIB",
+        "QT_WIDGETS_LIB",
+        "QT_SQL_LIB",
+        "QT_CHARTS_LIB"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}",
+          "C:/Qt/6.7.3/mingw_64/include"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      }
+    }
+  ]
+}
